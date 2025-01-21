@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="/assets/LogoFlower.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lexend:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+	<title>AluraGeek</title>
+</head>
+
+<body>
+	 <!-- Encabezado -->
+	 <header class="header">
+        <img src="./assets/LogoFlower.svg" alt="logo alurageek" />
+        <h1>AluraGeek</h1>
+    </header>
+
+    <!-- Contenedor principal -->
+    <main class="main-container">
+        <section>
+            <h1>Nuestros productos</h1>
+            <div data-product class="products-container"></div>
+        </section>
+
+        <!-- Sección de agregar productos -->
+        <section class="Form">
+            <h1>Agrega productos aquí</h1>
+
+            <!-- Formulario para agregar productos -->
+            <form class="form-container" data-form>
+                <input data-name placeholder="Nombre" type="text">
+                <input data-price placeholder="Precio" type="text">
+                <input data-image placeholder="Imagen" type="text">
+                <span data-mensage class="mensajeError"></span>
+                <div class="button-container">
+                    <button type="submit" class="button-submit" id="button"> Enviar...</button>
+                    <button type="reset" class="button-clear" id="button">Limpiar...</button>
+                </div>
+            </form>
+            
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer-container">
+        <div class="logoFooter">
+            <img src="./assets/LogoFlower.svg" alt="logo alurageek" />
+            <h1>AluraGeek</h1>
+        </div>
+        <p> Desarollado por Marcela Fonseca</p>
+        <small>Alura Latam 2025</small>
+    </footer>
+	<script type="module" src="js/controllers/main.js"></script>
+</body>
+</html>

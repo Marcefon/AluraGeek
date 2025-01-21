@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "name": "Rosas",
+      "price": "120",
+      "image": "https://img.freepik.com/foto-gratis/hermoso-ramo-flores_23-2149053825.jpg?t=st=1737433619~exp=1737437219~hmac=01d85f705cb36f1dd0a0979a8ceb5fc266d14d36c34063fc3819ce2791dea2ae&w=1060",
+      "id": "1"
+    },
+    {
+      "name": "Tulipanes",
+      "price": "150",
+      "image": "https://img.freepik.com/foto-gratis/mano-que-sostiene-flor-elegante_23-2149376498.jpg?t=st=1737433807~exp=1737437407~hmac=673811370b6fdb23cc1177dd3e15ad1c22b11cb4a88ab445388d88b7f0785f22&w=996",
+      "id": "2"
+    },
+    {
+      "name": "Hortensias",
+      "price": "110",
+      "image": "https://img.freepik.com/foto-gratis/cerrar-manos-sosteniendo-ramo-hortensias-rosadas_23-2149053723.jpg?t=st=1737433786~exp=1737437386~hmac=8b38481b7a58fa6ac549f2d455f9db4849ec11f735f746349bc60b31a8b3ec69&w=1060",
+      "id": "3"
+    },
+    {
+      "name": "Bucket rosa",
+      "price": "90",
+      "image": "https://img.freepik.com/foto-gratis/mano-sujetando-ramo-rosas_23-2148387911.jpg?t=st=1737433941~exp=1737437541~hmac=593146cebabfaea7c6b804d71cc4b158187607542e255ac671f230df1a0318c6&w=996",
+      "id": "5"
+    },
+    {
+      "name": "Eucalipto",
+      "price": "120",
+      "image": "https://img.freepik.com/foto-gratis/vista-lateral-mano-sosteniendo-hermosas-flores_23-2149526029.jpg?t=st=1737433982~exp=1737437582~hmac=6b856d60ff9c6678a6a44c50879ee2645e4c6275b71d1f8ac9f683f6e45d41c7&w=1060",
+      "id": "6"
+    },
+    {
+      "name": "Margaritas",
+      "price": "100",
+      "image": "https://img.freepik.com/foto-gratis/vista-superior-ramo-flores-hermosas_23-2149024551.jpg?t=st=1737434009~exp=1737437609~hmac=e7ea495053932dca35e064afebff779be241930b3f6551f4ccb1f378c83641b7&w=996",
+      "id": "7"
+    }
+  ]
+}
